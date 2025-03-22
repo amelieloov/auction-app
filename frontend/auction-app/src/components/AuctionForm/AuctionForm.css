@@ -1,0 +1,32 @@
+
+.center{
+    place-items: center;
+}
+
+.form-style{
+    display: grid;
+    gap: 0.5rem;
+}
+
+.unit{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-input{
+    width: 20rem;
+}
+
+.description-input{
+    width: 20rem;
+    height: 5rem;
+    padding: 5px;
+}
+
+.price-input{
+    width: 4rem;
+}
+
+.date-input{
+    width: 10rem;
+}

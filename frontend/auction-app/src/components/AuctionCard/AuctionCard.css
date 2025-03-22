@@ -1,0 +1,78 @@
+.auction-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 0.6rem;
+}
+
+.auction-card img {
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+  padding: none;
+}
+
+.auction-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.auction-button {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+}
+
+.auction-button button {
+  padding: 5px;
+  margin-bottom: 7px;
+  margin-right: 5px;
+}
+
+.card-search {
+  font-size: 0.9rem;
+  width: 10.7rem;
+  height: 15rem;
+  padding-bottom: 1rem;
+  margin-left: 5px;
+}
+
+.card-detailed {
+  width: 22rem;
+  font-size: 1rem;
+  margin: auto;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.card-detailed img {
+  height: 24rem;
+}
+
+.card-dashboard {
+  width: 16rem;
+}
+
+.card-dashboard img {
+  height: 12rem;
+}
+
+.add-bid input {
+  width: 5rem;
+  margin-right: 5px;
+}
+
+@media (min-width: 1024px) {
+  .card-search {
+    width: 14rem;
+  }
+
+  .card-detailed {
+    width: 40rem;
+  }
+}

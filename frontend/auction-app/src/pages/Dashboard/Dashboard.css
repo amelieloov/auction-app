@@ -1,0 +1,29 @@
+
+.button-style {
+    margin-top: 10px;
+    padding: 10px;
+    background: #5c8eb8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.top-part{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (min-width: 1024px) {
+
+    .dashboard {
+        margin: 20px;
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+
+    .rubric{
+        font-size: 1.5rem;
+    }
+}

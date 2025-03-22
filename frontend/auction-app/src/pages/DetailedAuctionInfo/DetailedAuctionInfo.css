@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.auction {
+    margin: 0; 
+    padding: 0; 
+}
+
+.bidlist{
+    margin: 0; 
+    padding: 0; 
+    align-self: flex-start;
+    margin-top: 3rem;
+}
+
+.bid-title{
+    margin-left: 7rem;
+}
